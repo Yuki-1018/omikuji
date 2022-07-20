@@ -60,6 +60,10 @@
   z-index: 1;
   cursor: pointer;
 }
+@font-face {
+	font-family: 'MyFont';
+	src: url(GL-Tsukiji-Shogo.otf);
+}
 </style>
 </head>
 <body>
@@ -70,7 +74,7 @@
   </div>
   <div class="black-background" id="js-black-bg"></div>
 </div>
-  <button id="js-show-popup" onClick="omikuji()"><img src="syougatsu2_omijikuji2.png" width="223" height="280" /></button><br><font size="5">おみくじをひこう！！</font></center>
+  <button id="js-show-popup" onClick="omikuji()"><img src="syougatsu2_omijikuji2.png" width="223" height="280" /></button><br><font size="5" style="font-family:MyFont;">おみくじをひこう！！</font></center>
 <script>
 document.oncontextmenu = function() { alert("右クリック禁止"); return false; }
 </script>
