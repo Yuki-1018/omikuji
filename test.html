@@ -95,11 +95,11 @@ document.oncontextmenu = function() { alert("右クリック禁止"); return fal
   function omikuji(){
     var mydiv = document.getElementById("mm");
     rand = Math.floor(Math.random()*100);
-	 mydiv.innerHTML = '<img src="omikuji_daikichi.png" width="180" height="400"/>'; //0～9（10%）
-	if (rand > 9) mydiv.innerHTML =  '<img src="omikuji_kyou.png" width="180" height="400" />';  //10～29（20%）
-	if (rand > 29)mydiv.innerHTML = '<img src="omikuji_daikyou.png" width="180" height="400"/>'; //30～69（40%）
-	if (rand > 69)mydiv.innerHTML =  '<img src="omikuji_syoukichi.png" width="180" height="400"/>';//70～89（20%）
-	if (rand > 89) mydiv.innerHTML =  '<img src="omikuji_chuukichi.png" width="180" height="400"/>'; //90～99（10%）
+	 mydiv.innerHTML = '<img src="omikuji_daikichi.png" width="180" height="400"/>'; //0～1（10%）
+	if (rand > 1) mydiv.innerHTML =  '<img src="omikuji_kyou.png" width="180" height="400" />';  //10～29（20%）
+	if (rand > 3)mydiv.innerHTML = '<img src="omikuji_daikyou.png" width="180" height="400"/>'; //30～69（40%）
+	if (rand > 97)mydiv.innerHTML =  '<img src="omikuji_syoukichi.png" width="180" height="400"/>';//70～89（20%）
+	if (rand > 98) mydiv.innerHTML =  '<img src="omikuji_chuukichi.png" width="180" height="400"/>'; //90～99（10%）
    
     
   
